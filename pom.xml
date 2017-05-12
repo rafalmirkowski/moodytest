@@ -7,6 +7,13 @@
     <packaging>war</packaging>
     <dependencies>
         <dependency>
+            <groupId>com.infoshareacademy</groupId>
+            <artifactId>peanut.medicine</artifactId>
+            <version>1.0</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/lib/peanut.medicine-1.0-jar-with-dependencies.jar</systemPath>
+        </dependency>
+        <dependency>
             <groupId>javax</groupId>
             <artifactId>javaee-api</artifactId>
             <version>7.0</version>
@@ -19,6 +26,7 @@
             <scope>provided</scope>
         </dependency>
     </dependencies>
+
     <build>
         <finalName>peanut</finalName>
         <pluginManagement>
